@@ -1,0 +1,31 @@
+{
+  "name": "myminicrud",
+  "version": "1.0.0",
+  "description": "My mini crud project",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davydovavi/MiniCRUD.git"
+  },
+  "keywords": [
+    "js",
+    "crud"
+  ],
+  "author": "Victoria Davydova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davydovavi/MiniCRUD/issues"
+  },
+  "homepage": "https://github.com/davydovavi/MiniCRUD#readme",
+  "devDependencies": {
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "uuidv4": "^6.2.7"
+  }
+}
